@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'drf_api_permissions_postgres.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': "django.db.backends.postgresql",
         'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
